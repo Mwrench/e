@@ -90,8 +90,8 @@
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.label62 = new System.Windows.Forms.Label();
-            this.teste = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
+            this.Numero = new System.Windows.Forms.Label();
+            this.Estrelas = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -933,27 +933,27 @@
             this.label62.Tag = "50";
             this.label62.Click += new System.EventHandler(this.numeros);
             // 
-            // teste
+            // Numero
             // 
-            this.teste.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.teste.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teste.Location = new System.Drawing.Point(439, 9);
-            this.teste.Name = "teste";
-            this.teste.Size = new System.Drawing.Size(394, 48);
-            this.teste.TabIndex = 67;
-            this.teste.Text = "Totoro";
-            this.teste.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Numero.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Numero.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Numero.Location = new System.Drawing.Point(439, 9);
+            this.Numero.Name = "Numero";
+            this.Numero.Size = new System.Drawing.Size(394, 48);
+            this.Numero.TabIndex = 67;
+            this.Numero.Text = "Totoro";
+            this.Numero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label63
+            // Estrelas
             // 
-            this.label63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label63.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.Location = new System.Drawing.Point(439, 57);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(394, 48);
-            this.label63.TabIndex = 68;
-            this.label63.Text = "Totoro";
-            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Estrelas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Estrelas.Font = new System.Drawing.Font("Nirmala UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Estrelas.Location = new System.Drawing.Point(439, 57);
+            this.Estrelas.Name = "Estrelas";
+            this.Estrelas.Size = new System.Drawing.Size(394, 48);
+            this.Estrelas.TabIndex = 68;
+            this.Estrelas.Text = "Totoro";
+            this.Estrelas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -962,8 +962,8 @@
             this.BackgroundImage = global::euromilhoes.Properties.Resources.tudo_num;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(874, 601);
-            this.Controls.Add(this.label63);
-            this.Controls.Add(this.teste);
+            this.Controls.Add(this.Estrelas);
+            this.Controls.Add(this.Numero);
             this.Controls.Add(this.label61);
             this.Controls.Add(this.label62);
             this.Controls.Add(this.label55);
@@ -1095,8 +1095,8 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label teste;
-        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label Numero;
+        private System.Windows.Forms.Label Estrelas;
     }
 }
 

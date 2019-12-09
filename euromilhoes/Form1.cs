@@ -25,15 +25,14 @@ namespace euromilhoes
         {
             Label tmp = (Label)sender;
             tmp.Text = E.Estrela(Convert.ToInt32(tmp.Tag)-1);
-            teste.Text = tmp.Tag.ToString();
+            Estrelas.Text = E.listaestrelas; 
         }
 
         private void numeros(object sender, EventArgs e)
         {
             Label tmp = (Label)sender;
             tmp.Text = E.Numeros(Convert.ToInt32(tmp.Tag)-1);
-            teste.Text = E.listanum;
-
+            Numero.Text = E.listanum;
         }
     }
 }

@@ -53,5 +53,20 @@
                 return lista;
             }
         }
+
+        public string listaestrelas
+        {
+            get
+            {
+                string lista = "";
+                for (int i = 0; i < 12; i++)
+                    if (estrela[i])
+                    {
+                        if (lista != "") lista += "+";
+                        lista += (i + 1).ToString();
+                    }
+                return lista;
+            }
+        }
     }
 }
